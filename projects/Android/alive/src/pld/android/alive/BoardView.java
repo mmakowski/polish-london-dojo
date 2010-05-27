@@ -33,8 +33,6 @@ public class BoardView extends SurfaceView implements Board.Listener {
 					}
 				}
 			}
-		} catch (Exception e) {
-			e.printStackTrace();
 		} finally {
 			if (canvas != null) {
 				holder.unlockCanvasAndPost(canvas);
